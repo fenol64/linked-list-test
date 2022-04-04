@@ -23,7 +23,7 @@ int main(void)
   node *array = (node *)malloc(sizeof(node));
   if (!array)
   {
-    printf("memoria cheia!\n");
+    printf("Sem memoria disponivel!\n");
     exit(1);
   }
   else
@@ -110,7 +110,7 @@ node *createElement()
   node *novo = (node *)malloc(sizeof(node));
   if (!novo)
   {
-    printf("memoria cheia!\n");
+    printf("Sem memoria disponivel!\n");
     exit(1);
   }
   else
